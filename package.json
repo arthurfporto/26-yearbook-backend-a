@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/arthurfporto/26-yearbook-backend-a/issues"
   },
-  "homepage": "https://github.com/arthurfporto/26-yearbook-backend-a#readme"
+  "homepage": "https://github.com/arthurfporto/26-yearbook-backend-a#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
