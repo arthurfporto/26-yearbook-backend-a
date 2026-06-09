@@ -15,7 +15,6 @@ enum Role {
 }
 
 // Model Mensagem — representa a tabela "Mensagem" no banco
-// (🎯 Desafio do aluno — solução completa)
 model Mensagem {
   id        Int      @id @default(autoincrement())
   texto     String
